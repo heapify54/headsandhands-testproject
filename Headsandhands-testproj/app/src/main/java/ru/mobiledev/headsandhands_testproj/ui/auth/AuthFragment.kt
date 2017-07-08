@@ -148,4 +148,9 @@ class AuthFragment : Fragment(), AuthView {
         val imm = activity.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.hideSoftInputFromWindow(parentView!!.windowToken, 0)
     }
+
+    override fun onDestroy() {
+        presenter.onDestroyView()
+        super.onDestroy()
+    }
 }
