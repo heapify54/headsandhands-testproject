@@ -14,7 +14,9 @@ object NetworkConst {
     val BASE_URL: String
         get() = RELEASE_BASE_URL
 
-    private const val RELEASE_BASE_URL = "http://openwheathermap.com"
+    private const val RELEASE_BASE_URL = "http://api.openweathermap.org/data/2.5/"
+
+    val API_KEY = "0825d6fb5a6b8c2723593339f364d165"
 }
 
 @Suppress("UNCHECKED_CAST")
@@ -26,7 +28,7 @@ private val transformer = Single.Transformer<BaseResponse<Any>, Any> { source: S
         if (error != null) {
             Single.error<BaseResponse<*>>(it.error)
         } else {
-            Single.just(it.data)
+            Single.just(it.main)
         }
     }
 }
