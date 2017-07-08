@@ -3,18 +3,25 @@
           package="ru.mobiledev.headsandhands_testproj">
 
 	<application
+		android:name=".HandsAndHeadsApp"
 		android:allowBackup="true"
 		android:icon="@mipmap/ic_launcher"
-		android:label="@string/app_name"
+		android:label="@string/main.title"
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/AppTheme">
-		<activity android:name=".MainActivity">
+		<activity android:name=".ui.main.MainActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN"/>
 
 				<category android:name="android.intent.category.LAUNCHER"/>
 			</intent-filter>
+		</activity>
+		<activity
+			android:name=".ui.auth.AuthActivity"
+			android:label="@string/auth.title"
+			android:parentActivityName=".ui.main.MainActivity"
+			android:theme="@style/AppTheme">
 		</activity>
 	</application>
 

@@ -16,19 +16,6 @@
 
 	</android.support.design.widget.AppBarLayout>
 
-	<FrameLayout
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-		<android.support.v7.widget.AppCompatButton
-			android:id="@+id/btnAuth"
-			style="@style/AppTheme.ButtonStyle"
-			android:layout_gravity="center"
-			android:background="@drawable/buttons_corner"
-			android:text="@string/main.auth"
-			android:textAppearance="@style/AppTheme.TextAppearance.Main.Button"/>
-
-	</FrameLayout>
+	<include layout="@layout/content_auth"/>
 
 </android.support.design.widget.CoordinatorLayout>

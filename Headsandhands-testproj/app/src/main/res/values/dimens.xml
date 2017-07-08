@@ -1,0 +1,5 @@
+<resources>
+	<dimen name="viewsWidth">296dp</dimen>
+	<dimen name="btnHeight">36dp</dimen>
+	<dimen name="etHeight">36dp</dimen>
+</resources>

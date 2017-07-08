@@ -1,3 +1,11 @@
 <resources>
 	<string name="app_name">Headsandhands-testproj</string>
+
+	<string name="auth.email_hint">Электронная почта</string>
+	<string name="auth.password_hint">Пароль</string>
+	<string name="auth.title">Авторизация</string>
+	<string name="auth.enter">ВОЙТИ</string>
+
+	<string name="main.title">Вход</string>
+	<string name="main.auth">АВТОРИЗАЦИЯ</string>
 </resources>
