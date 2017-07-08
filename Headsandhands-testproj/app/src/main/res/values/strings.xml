@@ -5,6 +5,10 @@
 	<string name="auth.password_hint">Пароль</string>
 	<string name="auth.title">Авторизация</string>
 	<string name="auth.enter">ВОЙТИ</string>
+	<string name="auth.invalid_email">Укажите правильный e-mail</string>
+	<string name="auth.invalid_password_count">Длина пароля должна быть больше 5 символов</string>
+	<string name="auth.invalid_password">Пароль должен содержать как минимум 1 цифру и
+		1 строчную и заглувную букву</string>
 
 	<string name="main.title">Вход</string>
 	<string name="main.auth">АВТОРИЗАЦИЯ</string>
