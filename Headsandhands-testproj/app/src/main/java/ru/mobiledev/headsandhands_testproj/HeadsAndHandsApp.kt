@@ -7,11 +7,11 @@ import ru.mobiledev.headsandhands_testproj.data.remote.RestApi
 /**
  * Created by heapify on 07.07.2017.
  */
-class HandsAndHeadsApp : Application() {
+class HeadsAndHandsApp : Application() {
     companion object {
         private const val TAG = "HandAndHeadsApp"
 
-        lateinit var instance: HandsAndHeadsApp
+        lateinit var instance: HeadsAndHandsApp
             private set
     }
 
